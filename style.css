@@ -54,7 +54,7 @@ footer {
 body {
     background-color: rgb(170, 170, 170);
     background-attachment: fixed;
-    background-image: url('/img/gray_background_01.jpg');
+    background-image: url('/img/6081475.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,7 +85,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background: rgba(255, 255, 255, .7);
+    background: #ecb3ffc2;
 }
 
 /* Logotipo usando "Font Awesome". */
@@ -102,7 +102,7 @@ body {
     margin-left: 1rem;
     text-align: center;
     font-size: 2rem;
-    letter-spacing: .6rem;
+    letter-spacing: .05rem;
 }
 
 .wrap>header small {
@@ -112,12 +112,16 @@ body {
     letter-spacing: normal;
 }
 
+.wrap>header img {
+    height: 80px;
+}
+
 /**
  * Estilos do menu principal.
  */
 
 .wrap>nav {
-    background: rgba(0, 0, 0, .75);
+    background: #4d0066b0;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -161,7 +165,7 @@ body {
  */
 
 .wrap>footer {
-    background: rgba(0, 0, 0, .75);
+    background: #4d0066b0;
     padding: 1px 0;
     color: white;
     display: flex;
@@ -462,4 +466,42 @@ form button[id="passToggle"], form button[id="newPassToggle"] {
         flex: 0 0 200px;
     }
 
+}
+
+/**
+ * Artigos mais visitados na barra lateral.
+ */
+.side-art-box {
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.side-art-title {
+    font-weight: bold;
+}
+
+.side-art-title:hover {
+    color: steelblue;
+}
+
+.side-art-intro {
+    font-size: small;
+}
+
+/**
+ * Lista de redes sociais na barra lateral.
+ */
+.aside-social-box {
+    margin-top: 1rem;
+}
+
+.aside-social-box a {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.aside-social-box i {
+    font-size: 1.5rem;
+    margin-right: .5rem;
 }
